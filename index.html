@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSKTM IT Club</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-height: 600px;
+            padding: 0 10px;
+        }
+
+        .logo, .navigation, .content, .footer {
+            margin-top: 10px;
+        }
+
+        .logo {
+            min-height: 100px;
+            background-image: url('header.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .navigation {
+            min-height: 50px;
+            background-color: #273e6a;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            gap: 20px;
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content {
+            min-height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .side-bar {
+            width: 20%;
+            background-color: #e2e8f0;
+            padding: 20px;
+        }
+
+        .body-area {
+            width: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .footer {
+            min-height: 20px;
+            background-color: #1b2845;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        h2, h3 {
+            margin-bottom: 15px;
+            color: #1b2845;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .meetup-info {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .side-bar, .body-area {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="logo">
+            <h1>FSKTM IT Club</h1>
+            <p>Learn. Build. Innovate. Together.</p>
+        </div>
+
+        <div class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="content">
+            
+            <div class="side-bar">
+                <h3>Club Corner</h3>
+                <p>Explore activities and opportunities available to our members in UTHM.</p>
+                <ul>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="#">Learning Resources</a></li>
+                    <li><a href="#">Join the Club</a></li>
+                    <li><a href="#">Project Gallery</a></li>
+                </ul>
+
+                <div class="meetup-info">
+                    <h3>Weekly Meet-up</h3>
+                    <p>Wednesday, 3:00 PM<br>Student Activity Room, FSKTM</p>
+                </div>
+            </div>
+
+            <div class="body-area">
+                <h2>Discover Technology, Create Possibilities</h2>
+                <p>Welcome to Campus Tech Society! We are a student-led community at Universiti Tun Hussein Onn Malaysia that brings together people interested in web development, programming, design, and emerging technology. Whether you are building your first HTML page or developing a complex web application, this is the place to grow.</p>
+                
+                <h2>About Our Club</h2>
+                <p>Our mission is to help students build practical skills through hands-on workshops, mini projects, and knowledge-sharing sessions. Everyone is welcome, including absolute beginners who want to explore the world of IT. We focus on real-world skills that go beyond the lecture hall.</p>
+
+                <h2>Upcoming Activities</h2>
+                <ul>
+                    <li><strong>HTML & CSS Workshop:</strong> Create your very first responsive website from scratch.</li>
+                    <li><strong>Hackathon Day:</strong> Pitch an idea and build a working prototype with your team.</li>
+                    <li><strong>Tech Talk:</strong> Learn industry insights and career tips from experienced speakers.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 FSKTM IT Club. All rights reserved. | Developed by Nik Putra Daniel Iskandar bin Mohamad Faiz 😎 </p>
+        </div>
+    </div>
+</body>
+</html>
